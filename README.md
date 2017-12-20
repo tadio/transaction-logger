@@ -1,1 +1,1 @@
-# transaction-logger
+This project seeks to log transaction requests and updates to a persistent data store, which at this time, will be cassandra. requests will be consumed from a message queue(and hopefully, if time and schedule permits, via rpc too). The whole app will be hosted on heroku and/or aws.
